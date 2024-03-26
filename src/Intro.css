@@ -1,0 +1,41 @@
+.intro-container {
+    height: 100vh; 
+    width: 100vw; 
+    background-image: url('todo_icon.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background-repeat: no-repeat;
+    align-items: center; 
+    text-align: center; 
+    color: #C71585; 
+  }
+  
+  .intro-container h1 {
+    margin-bottom: 0.5em;
+    font-size: 2.5em; 
+    font-weight: bold;  
+  }
+  
+  .intro-container p {
+    cursor: pointer; 
+    margin-bottom: 20px;
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #C71585;
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start-button:hover {
+    background-color: palevioletred;
+  }
+  
